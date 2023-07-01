@@ -44,7 +44,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <Image src="/hero1.png" alt="hero" fill className="object-contain" />
+          <Image src="/hero3.png" alt="hero" fill className="object-contain" />
         </motion.div>
 
         <div className="hero__image-overlay" />
