@@ -55,6 +55,7 @@ export interface OptionProps {
 export interface CustomFilterProps {
   title: string;
   options: OptionProps[];
+  
 }
 
 export interface ShowMoreProps {
@@ -63,6 +64,6 @@ export interface ShowMoreProps {
 }
 
 export interface SearchManuFacturerProps {
-  manufacturer: string;
-  setManuFacturer: (manufacturer: string) => void;
+  selected: string;
+  setSelected: (manufacturer: string) => void;
 }
