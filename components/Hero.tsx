@@ -22,7 +22,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="hero__title">
+        <h1 className="hero__title leading-tight font-extrabold">
           Find, book, rent a car—quick and super easy!
         </h1>
 
